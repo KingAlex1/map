@@ -12,7 +12,7 @@
     "test": "karma start",
     "cover": "istanbul cover _mocha -- test/*.js"
   },
-  "author": "",
+  "author": "Alex B.",
   "license": "MIT",
   "dependencies": {
     "babel-core": "^6.22.1",

@@ -1,0 +1,180 @@
+/* Please do not use this import in production. You could download this font from here https://fontstorage.com/font/roboto */
+@import "http://fonts.fontstorage.com/import/roboto.css";
+
+/*
+	Roboto, 100, 100 italic, 300, 300 italic, 400, 400 italic, 500, 500 italic, 700, 700 italic, 900, 900 italic
+*/
+
+body, html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+body, html {
+    width: 100%;
+    height: 100%
+}
+
+body {
+    position: relative;
+    display: block;
+    font-size: 10px;
+    line-height: 1.5;
+    min-width: 320px;
+    overflow-x: hidden;
+    font-family: Roboto;
+}
+
+.desk-map {
+    width: 30vw;
+    height: auto;
+    max-height: 70vh;
+    display: block;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.desk-map__close {
+
+
+    float: right;
+    font-size: 10px;
+    cursor: pointer;
+
+}
+
+.desk-map__close::after{
+    font-family: sans-serif;
+    height: 10px;
+    width: 10px;
+    content: "\f207";
+    position: absolute;
+    top: 8px;
+
+
+}
+
+.desk-head {
+    background-color: #ff8663;
+    padding: 8px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 10px
+}
+
+.desk-body {
+
+    height: 70px;
+    overflow-y: hidden;
+    margin: 8px;
+    font-size: 10px;
+    border-bottom: 1px solid #f0f0f0
+}
+
+.desk-form {
+    padding: 0 8px;
+    height:50%;
+}
+
+.desk-form h3 {
+    margin: 0;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ff8663
+}
+
+.desk-form input, .desk-form textarea {
+    width: 100%;
+    height: 8%;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #c4c4c4
+
+}
+
+.desk-form button, .desk-form input, .desk-form textarea {
+    margin-top: 8px;
+    padding: 4px;
+    font-size: 10px;
+    font-weight: 300;
+    font-family: Fira Sans, sans-serif !important;
+    box-sizing: border-box
+}
+
+.desk-form textarea {
+    resize: none;
+    border-radius: 15px
+}
+
+.desk-form button {
+    float: right;
+    font-size: 10px;
+    font-weight: 300;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    background-color: #ff8663;
+    outline: none
+}
+
+.desk-item {
+    color: #4f4f4f;
+    margin-bottom: 8px
+}
+
+.desk-item__name {
+    font-weight: 300
+}
+
+.desk-item__date, .desk-item__message {
+    font-size: 10px
+}
+
+.desk-item__message {
+    margin-top: 8px
+}
+
+.desk-item__date, .desk-item__name, .desk-item__place {
+    display: inline-block
+}
+
+
+
+.cluster-map {
+    font: 10px Fira Sans, Roboto;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.cluster-map__place {
+    font-weight: 500;
+    font-size: 10px;
+    margin: 0 0 10px
+}
+
+.cluster-map__link {
+    margin-bottom: 10px;
+    display: block
+}
+
+.cluster-map__date {
+    text-align: right;
+    color: #4f4f4f;
+    margin-bottom: 8px
+}
+
+
+
